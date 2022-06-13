@@ -1,0 +1,92 @@
+body{
+  background-color: black;
+}
+.navbar{
+  background-color: black;
+  height: 70px;
+}
+.logoImg{
+   width: 180px;
+  height: 130px; 
+}
+.overLay{
+  height: 60vh;
+  width: 100%;
+  padding-top: 100px;
+  color: white;
+  overflow: hidden;
+  background: #C04848;  /* fallback for old browsers */
+  background: linear-gradient(rgba(8, 121, 77, 0.8), rgb(153, 12, 19)), url("");  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(rgba(133, 101, 133, 0.8), rgb(238,84,92)), url(""); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card_One{
+  height: 10px !important;
+  width: 16rem;
+ margin-top: 200px;
+ 
+    }
+
+.card-img-top{
+   height: 18vh ;
+}
+.card_One .card-body{
+  display: none;
+}
+.card_One:hover{
+  transform: scale(1.4);
+  margin-top: 120px;
+}
+.card_One:hover .card-body{
+  display: block !important;
+  z-index: 14 !important;
+  
+}
+.playImg{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.card-body{
+  background-color: black;
+}
+.addImg{
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+
+}
+.minImg{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+.likeImg{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
+.allCard{
+  
+  justify-content: space-evenly !important;
+  flex-wrap: wrap;
+}
+.searchImg{
+  height: 24px;
+  width: 24px;
+}
+.notifiImg{
+  height: 34px;
+  width: 34px;
+}
+.backImg{
+  
+  height: 60vh;
+}
+.twoicon{
+  margin-left: 620px;
+}
